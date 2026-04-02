@@ -8,7 +8,7 @@ This hands-on submission explores how LittleHorse handles fault tolerance and au
 
 ---
 
-## Tech Stack
+## Technology Used
 
 - **Platform:** Google Kubernetes Engine (GKE)
 - **Language:** Python 3.12
