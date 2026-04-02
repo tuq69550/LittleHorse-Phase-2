@@ -140,7 +140,7 @@ After completing the demonstration, all GKE resources were deleted to prevent on
 
 ## Architectural Analysis
 
-### How This Fits Into the Team's MSA Architecture
+### How This Fits Into MSA Architecture
 LittleHorse sits at the orchestration layer of a microservices architecture, above the container orchestration layer (Kubernetes) and below the business logic layer (individual services). My hands-on work demonstrates this by running LittleHorse on GKE. Kubernetes manages the containers while LittleHorse manages the workflow execution across those containers. This is consistent with what we presented in Phase 1: LittleHorse is NOT a replacement for Kubernetes, but a complement to it. It handles the coordination of business processes that span multiple services.
 
 ### Fault Tolerance Insights
